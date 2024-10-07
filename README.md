@@ -43,6 +43,13 @@ Deploy a highly available web application on AWS using Terraform, with an Applic
 - SSH access to private instances is established through the bastion host.
 - Private instances can connect to the internet via the NAT Gateway to download necessary software and updates.
 
+
+## Architecture Overview
+
+![Architecture Diagram](./architure.png)
+
+
+
 ## Usage
 1. Clone the repository.
 2. Update the Terraform variables (such as SSH key, instance type, etc.).
